@@ -1,26 +1,29 @@
 import React from 'react';
-
+import {Card} from 'semantic-ui-react';
+import './CharStyle.css';
 
 export default function Character(props){
 
-    return (
+return (
 
-        <div>
-            
-    <h2>{props.name}</h2>
+<div className = 'Card'>
+    <Card.Group>
+        <Card>
+            <Card.Content>
+                <Card.Header as = 'span'>Star Wars Characters</Card.Header>
+                <Card.Header as = 'h2' >{props.name}</Card.Header>
+                <Card.Meta as = 'h4'>{props.birth_year}</Card.Meta>
+                <Card.Description as = 'p'>{props.hair_color}</Card.Description>
+                <Card.Description as ='p'>{props.height}</Card.Description>
+                <Card.Description as ='p'>{props.eye_color}</Card.Description>
+                <Card.Description as ='p'>{props.gender}</Card.Description>
 
-    <h3>{props.birth_year}</h3>
+            </Card.Content>
 
-    <h3>{props.hair_color}</h3>
+        </Card>
 
-    <h3>{props.height}</h3>
+    </Card.Group>
 
-    <h3>{props.eye_color}</h3>
-
-    <h3>{props.gender}</h3>
-
-
-
-        </div>
-    )
-};
+</div>
+)
+}
