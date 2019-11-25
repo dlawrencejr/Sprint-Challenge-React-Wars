@@ -6,3 +6,18 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.Cards{
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  border-width:5px;  
+  border-style:outset;
+  border-color: greenyellow;
+  font-size: 2rem;
+  padding: 30px 0;
+}
+h1{
+  font-size: 4rem;
+}
