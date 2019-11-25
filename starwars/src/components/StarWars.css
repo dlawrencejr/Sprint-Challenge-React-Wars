@@ -1,0 +1,34 @@
+.Card{
+    align-items: center;
+    padding: 100px;
+    border-width:5px;  
+    border-style:outset;
+    width: 40%;
+    margin: 40px;
+    background: black;
+    color: white;
+
+}
+span{
+
+    font-size: 4rem;
+    color: greenyellow;
+}
+
+h2{
+    /* font-family: 'Poller One', cursive; */
+    border-style:outset;
+    border-bottom-color: white;
+    padding: 25px;
+}
+.meta{
+    padding: 25px;
+    border-style:outset;
+    border-bottom-color: white;
+ 
+}
+.description{
+    padding: 25px;
+    border-bottom-color: white;
+    border-style:outset;
+}
